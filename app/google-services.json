@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "264040421395",
+    "firebase_url": "https://readers-23ea8.firebaseio.com",
+    "project_id": "readers-23ea8",
+    "storage_bucket": "readers-23ea8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264040421395:android:4e227c52970ea804",
+        "android_client_info": {
+          "package_name": "aarnav100.developer.readers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264040421395-t2ec9alicdol2ab6nfkahdl54vdcrebg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "aarnav100.developer.readers",
+            "certificate_hash": "0f91e1d7b90319336d2209833b370a69279bd439"
+          }
+        },
+        {
+          "client_id": "264040421395-36prinv3nlk2j78isbe8pi2vlu7arfum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg0GwgDxhxYWJOk7qXfdGy1HzTv7Vtvko"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264040421395-36prinv3nlk2j78isbe8pi2vlu7arfum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

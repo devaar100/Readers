@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:layout_marginBottom="30dp"
+    android:src="@drawable/readers"
+    android:layout_width="match_parent"
+    android:layout_height="30dp" />
+    <EditText
+        android:hint="Email Id"
+        android:id="@+id/new_un"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/new_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Re-enter password"
+        android:inputType="textPassword"
+        android:id="@+id/re_new_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/new_create"
+        android:textColor="@android:color/white"
+        android:text="Create Account"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

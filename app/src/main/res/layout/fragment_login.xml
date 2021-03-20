@@ -1,0 +1,104 @@
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="aarnav100.developer.readers.Login"
+        android:orientation="vertical"
+        android:background="@drawable/bg1"
+        android:padding="40dp"
+     android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+         <LinearLayout
+             android:background="@color/transWhite"
+             android:padding="20dp"
+             android:orientation="vertical"
+             android:gravity="center"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/readers"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+                 <TextView
+                     android:layout_marginBottom="40dp"
+                     android:gravity="center"
+                     android:textColor="@android:color/black"
+                     android:text="Connecting Readers Worldwide"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/email"
+            android:hint="Email Id"
+            android:lines="1"
+            android:inputType="textEmailAddress|textAutoComplete|textAutoCorrect"
+            android:background="@drawable/rect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/rect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/appColor"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:id="@+id/login"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Resend confirmation email"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:id="@+id/resend"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+                 <RelativeLayout
+                     android:layout_marginTop="10dp"
+                     android:layout_marginBottom="10dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                         <View
+                             android:layout_centerVertical="true"
+                             android:background="@android:color/black"
+                             android:layout_width="match_parent"
+                             android:layout_height="1dp"/>
+                         <ImageView
+                             android:src="@drawable/or"
+                             android:layout_centerHorizontal="true"
+                             android:layout_width="30dp"
+                             android:layout_height="30dp" />
+                 </RelativeLayout>
+                 <TextView
+                     android:gravity="center"
+                     android:textColor="@android:color/black"
+                     android:text="Need An Account ?"
+                     android:textSize="15dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" />
+        <Button
+            android:text="Create Account"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/appColor"
+            android:layout_marginLeft="17dp"
+            android:layout_marginRight="17dp"
+            android:id="@+id/register"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+         </LinearLayout>
+ </LinearLayout>

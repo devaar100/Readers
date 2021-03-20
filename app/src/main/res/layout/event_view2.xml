@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="0dp"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="0dp"
+        android:background="@drawable/rect"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.maps.MapView
+            android:background="@android:color/darker_gray"
+            android:id="@+id/mapView"
+            android:apiKey="@string/google_map_key"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+        <ImageView
+            android:padding="5dp"
+            android:src="@drawable/book"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_below="@id/mapView"
+            android:id="@+id/details"
+            android:padding="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <TextView
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="New Swastik apartment, Book fest "
+                android:id="@+id/eventTitle"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="New Swastik apartment, Sec-9, Rohini, Delhi"
+                android:id="@+id/eventLoc"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:text="Amazing book event near you"
+                android:maxLines="4"
+                android:id="@+id/eventDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/delEvent"
+            android:src="@drawable/bin"
+            android:padding="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/settingsEvent"
+            android:padding="7dp"
+            android:src="@drawable/send"
+            android:background="@android:color/holo_green_dark"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

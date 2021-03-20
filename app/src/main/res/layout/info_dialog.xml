@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<TextView
+    android:text="Readers uses GPS to send event proximity alerts. Kindly turn on location services when tracking any event"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <RadioButton
+        android:id="@+id/r_btn"
+        android:text="Don't show this message again"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

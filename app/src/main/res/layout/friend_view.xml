@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginEnd="15dp"
+        android:padding="15dp"
+        android:src="@drawable/download"
+        android:id="@+id/fdImg"
+        android:scaleType="centerCrop"
+        android:layout_height="120dp"
+        android:layout_width="120dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fdName"
+            android:lines="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Friend Name"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:lines="1"
+            android:id="@+id/fdPreference"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Preferences"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:lines="1"
+            android:id="@+id/fdPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="Location"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</LinearLayout>

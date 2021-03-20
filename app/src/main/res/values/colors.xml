@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="transWhite">#80FFFFFF</color>
+    <color name="appColor">#c40000</color>
+    <color name="headColor">#a50000</color>
+    <color name="pink">#FF1493</color>
+    <color name="golden">#FFDF00</color>
+    <color name="darkGray">#aaa</color>
+</resources>

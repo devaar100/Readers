@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Readers</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile_login">ProfileLogin</string>
+    <string name="title_activity_social">Social</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="read_more"><u>Read more</u></string>
+    <string name="manage"><u>Manage</u></string>
+    <string name="google_map_key">AIzaSyCzl_XZ_sklKQg4q_K3pxUD5LmtQ2b2baY</string>
+</resources>
